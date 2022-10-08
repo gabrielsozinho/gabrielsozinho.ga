@@ -105,3 +105,32 @@ html, body{
     color: white;
     margin: 0 10px;
 }
+
+.projects-carousel{
+    margin: 0 auto;
+    max-width: 50rem;
+    color: black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators{
+    filter: invert(40%);
+}
+
+.projectLink{
+    color: white;
+    text-decoration: none;
+}
+
+.project-link-container{
+    display: flex;
+    align-items: center;
+}
+
+.projectLinkDark{
+    color: black;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
