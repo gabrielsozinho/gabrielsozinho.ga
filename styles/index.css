@@ -14,12 +14,6 @@
     --background-ui-color: #ececec;
 }
 
-@font-face {
-    font-family: "Ubuntu";
-    src: url("./ubuntu-webfont.eot");
-    src: url("./ubuntu-webfont.woff") format("woff"),
-    url("./ubuntu-webfont.svg") format("svg");
-}
 
 html, body{
     font-family: 'Ubuntu', sans-serif;
