@@ -132,7 +132,7 @@ html, body{
 }
 
 .projectLinkDark{
-    color: black;
+    color: white;
     text-decoration: none;
     width: 50%;
 }
@@ -146,4 +146,9 @@ html, body{
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
+  }
+
+  .text-footer{
+    color: #c2c2c2;
+    
   }
