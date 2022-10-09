@@ -3,12 +3,14 @@
     --text-color:#fff;
     --backgound-image: url('/img/light.png');
     transition: 0.5s;
+    --background-ui-color: #1a1a1a;
   }
 .light_mode{
     --body-bg: #fff;
     --text-color: #000;
     --backgound-image: url('/img/dark.png');
     transition: 0.5s;
+    --background-ui-color: #ececec;
 }
 
 
@@ -77,7 +79,8 @@ html, body{
     background-image: var(--backgound-image);
     background-position: top center;
     background-size: cover;
-    margin-left: 15px;
+    margin-left: 15px; 
+    transition: 0.5s;
 }
 
 .text{
@@ -137,18 +140,63 @@ html, body{
     width: 50%;
 }
 
+.contact-container{
+    padding: 15px;
+}
+
+.contact-title{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.contact-form{
+    border-radius: 50px;
+    padding: 25px;
+    box-shadow:  8px 8px 16px var(--background-ui-color),
+             -8px -8px 16px var(--background-ui-color);
+    background-color: var(--background-ui-color);
+    transition: 0.5s;
+    color: var(--text-color);
+}
+
+.btn-contact{
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.send-email{
+    text-decoration: none;
+    color: black
+}
+
+.contact-connect{
+    margin-top: 10%;
+}
+
+.social-media-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.social-media-logo:hover{
+    filter: brightness(150%);
+    transition: 0.5s;
+}
+
 .reveal{
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 1s all ease;
   }
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
 
-  .text-footer{
+.text-footer{
     color: #c2c2c2;
-    
-  }
+    padding-bottom: 15px;
+}
