@@ -25,11 +25,3 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 reveal();
-
-/*
-typescript
-nodejs
-reactjs
-nextjs
-postgresql
-figma*/
