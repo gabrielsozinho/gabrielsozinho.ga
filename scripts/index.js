@@ -24,8 +24,16 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-// To check the scroll position on page load
 reveal();
+
+let circle = document.getElementById('circle');
+
+const onMouseMove = (e) =>{
+    circle.style.left = e.pageX + 'px';
+    circle.style.top = e.pageY + 'px';
+  }
+  
+document.addEventListener('mousemove', onMouseMove);
 /*
 typescript
 nodejs

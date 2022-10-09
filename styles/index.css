@@ -182,7 +182,7 @@ html, body{
 
 .social-media-logo:hover{
     filter: brightness(150%);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .reveal{
@@ -199,4 +199,13 @@ html, body{
 .text-footer{
     color: #c2c2c2;
     padding-bottom: 15px;
+}
+
+.circle{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid rgb(160, 160, 160);
 }
