@@ -154,6 +154,11 @@ body::-webkit-scrollbar-thumb {
     padding: 15px;
 }
 
+.contact-map{
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-title{
     margin-top: 70px;
     margin-bottom: 15px;
@@ -209,4 +214,12 @@ body::-webkit-scrollbar-thumb {
 .text-footer{
     color: #c2c2c2;
     padding-bottom: 15px;
+}
+
+.col{
+    margin: 0 auto;
+}
+
+iframe{
+    width: 400px;
 }
