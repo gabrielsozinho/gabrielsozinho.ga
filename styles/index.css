@@ -4,6 +4,7 @@
     --backgound-image: url('/img/light.png');
     transition: 0.5s;
     --background-ui-color: #1a1a1a;
+    scrollbar-width: thin;
   }
 .light_mode{
     --body-bg: #fff;
@@ -20,6 +21,15 @@ html, body{
     color: var(--text-color);
     transition: 1s;
 }
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+  }
 
 .navbarScroll.navbarDark {
     background: #060606;
